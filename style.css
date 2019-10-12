@@ -145,7 +145,7 @@ body{
 	}
 	
 	.navbar img {
-		border-radius: 50%;
+		border-radius: 0%;
 		width: 42px;
 		height: 42px;
 		margin-right: 40px;
