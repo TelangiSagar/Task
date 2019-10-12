@@ -349,3 +349,13 @@ position: absolute;
 	border-color: #67D1BA;
 }
 
+
+  
+.column {
+  transition: transform .1s; /* Animation */
+}
+
+.column :hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
