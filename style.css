@@ -146,8 +146,8 @@ body{
 	
 	.navbar img {
 		border-radius: 0%;
-		width: 42px;
-		height: 42px;
+		width: 38px;
+		height: 38px;
 		margin-right: 40px;
 		margin-top: 5px;
 		
@@ -159,8 +159,16 @@ body{
 		margin-top:3px;
 	}
 	
-	
-	
+  
+.column {
+  transition: transform .1s; /* Animation */
+}
+
+.column :hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: #67D1BA;
+
+}
 .main{
 font-family:calibri;
 margin-left:60px;
@@ -191,10 +199,19 @@ height:1px;
 #img1{
 margin:2px;
 height:60px;
+margin-left:-80px;
+margin-top:-30px;
 border-radius:50%;
 position: absolute;
-    TOP: 580px;
-    left: 110px;
+}
+
+#img2{
+margin:2px;
+height:60px;
+margin-left:-80px;
+margin-top:-30px;
+border-radius:50%;
+position: absolute;
 }
 
 .w3-btn {margin-bottom:10px;}
@@ -206,7 +223,7 @@ position: absolute;
 .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 0px;
 }
 .row {
     margin-right: 200px;
@@ -285,6 +302,16 @@ position: absolute;
 	color:gray;
 }
 
+/**********************************
+			image
+***********************************/
+
+
+
+
+
+
+
 
 
 
@@ -347,15 +374,4 @@ position: absolute;
 .w3-container
 {
 	border-color: #67D1BA;
-}
-
-
-  
-.column {
-  transition: transform .1s; /* Animation */
-}
-
-.column :hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
 }
